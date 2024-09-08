@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.css'
+        integrity='sha512-VcyUgkobcyhqQl74HS1TcTMnLEfdfX6BbjhH8ZBjFU9YTwHwtoRtWSGzhpDVEJqtMlvLM2z3JIixUOu63PNCYQ=='
+        crossorigin='anonymous' />
+
+    <title>Comentários</title>
+</head>
+
+<body class="bg-dark">
+
+
+    <div class="d-flex justify-content-center mt-5">
+
+
+        <form id="formulario" class="rounded-2 bg-white p-5 w-50 ">
+            <!-- w-50 -->
+
+            <h3 class="text-center mb-4">Faça seu comentário</h3>
+
+            <div class="mb-3">
+                <label for="inputName" class="form-label">Nome</label>
+                <input type="text" class="form-control" id="inputName"  name="" required>
+            </div>
+            <div class="mb-3">
+                <label for="inputText" class="form-label">No que está pensando?</label>
+                <textarea class="form-control" id="inputText"  required name=""></textarea>
+            </div>
+
+            <div class="d-flex justify-content-center">
+                <button type="submit" class="btn btn-primary px-4">Comentar</button>
+            </div>
+        </form>
+
+    </div>
+
+    <div class="d-flex justify-content-center mb-5">
+        <div class="rounded-2 bg-white p-3 mt-3 w-50" id="commentPost">
+            <h5 class="text-center mb-3">Comentários</h5>
+            <!-- <p class="py-3"><strong>Junior:</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
+                eligendi repudiandae laborum, veritatis voluptate saepe similique, molestias numquam enim excepturi
+                labore sunt consectetur, ipsam temporibus error non aspernatur inventore aperiam?</p> -->
+        </div>
+
+    </div>
+
+
+    <script type="module" src="./assets/js/main.js"></script>
+</body>
+
+</html>
